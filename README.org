@@ -8,14 +8,14 @@ python3 main.py [filename]
 #+END_SRC
 
 * Grammar
-- `+` -> binary `and`
-- `|` -> binary `or`
-- `^` -> binary `xor`
-- `!` -> unary `not`
-- `=>` -> implication, `a->b`: if a then b
-- `<=>` -> bi-directional implication
-- `=ARGS` -> fact list
-- `?ARGS` -> hypothesis list
+- + -> binary and
+- | -> binary or
+- ^ -> binary xor
+- ! -> unary not
+- => -> implication, a->b: if a then b
+- <=> -> bi-directional implication
+- =ARGS -> fact list
+- ?ARGS -> hypothesis list
 
 * Example
 #+BEGIN_SRC bash
