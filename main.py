@@ -11,6 +11,8 @@ def main() -> None:
         return shell.stdin_parse()
     except (EOFError, KeyboardInterrupt):
         exit("Goodbye !")
+    except Exception as e:
+        exit(e)
 
 
 if __name__ == "__main__":
